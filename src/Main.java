@@ -1,13 +1,12 @@
-import java.util.Scanner;
 
 public class Main {
-
-    enum WeekDays {Sunday, Monday, Tuesday, Thursday, Friday, Saturday;}
+    public static void func() {
+        System.out.println("CORONA\n");
+        System.out.println("دفعه كرونا ");
+    }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        WeekDays Day;
-        Day=WeekDays.Monday;
-        System.out.println(Day.toString());
+        System.out.println("Hello World\n");
+        func();
     }
 }
