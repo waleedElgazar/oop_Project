@@ -21,8 +21,6 @@ public interface EngineerInterface {
 
     public double calculateCoast();
 
-    public double get_salary();
-
     public void deleteCustomer();
 
     public void deleteCompany();

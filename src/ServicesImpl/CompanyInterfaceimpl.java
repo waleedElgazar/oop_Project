@@ -1,21 +1,20 @@
 package ServicesImpl;
 
+import Model.Company;
+import Model.Design;
 import Services.CompanyInterface;
 
 public class CompanyInterfaceimpl  implements CompanyInterface {
+    Company company=new Company();
     @Override
-    public double calculatePackage() {
-        return 0;
-    }
-
-    @Override
-    public void getDesgin() {
-
+    public String getDesgin() {
+        Design design=new Design();
+        return design.toString();
     }
 
     @Override
     public double setCEMENTAmount() {
-        return 0;
+        return company.getAmount()/10;
     }
 
     @Override

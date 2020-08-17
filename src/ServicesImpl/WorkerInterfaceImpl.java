@@ -9,7 +9,7 @@ public class WorkerInterfaceImpl implements WorkerInterface {
     }
 
     @Override
-    public double getSalary() {
+    public int getHolidays() {
         return 0;
     }
 
@@ -19,7 +19,9 @@ public class WorkerInterfaceImpl implements WorkerInterface {
     }
 
     @Override
-    public double getNumOfHoursworking() {
+    public int getRating() {
         return 0;
     }
+
+
 }

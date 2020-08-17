@@ -4,10 +4,12 @@ public interface WorkerInterface {
 
     public double getNumbersOfWorkedDays();
 
-    public double getSalary();
+    public int getHolidays();
+
+
 
     public String typeOfWorker();
 
-    public double getNumOfHoursworking();
+    public int getRating();
 
 }

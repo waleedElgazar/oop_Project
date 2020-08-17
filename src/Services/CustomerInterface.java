@@ -4,11 +4,7 @@ public interface CustomerInterface {
 
     public boolean isPaid();
 
-    public void setAddress();
-
-    public void setNumberOfFloors();
-
-    public boolean isAccepted();
+    public boolean desginAccepted();
 
 
 }

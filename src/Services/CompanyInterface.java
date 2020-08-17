@@ -2,9 +2,7 @@ package Services;
 
 public interface CompanyInterface {
 
-    public double calculatePackage();
-
-    public void getDesgin(); // get desgin from engineer
+    public String getDesgin(); // get desgin from engineer
 
     public double setCEMENTAmount();
 
