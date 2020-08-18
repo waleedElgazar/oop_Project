@@ -6,5 +6,5 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WorkerDao {
-    public List<Worker> workers=new ArrayList<Worker>();
+    public static List<Worker> workers=new ArrayList<Worker>();
 }

@@ -8,12 +8,14 @@ public class Worker {
     private String address;
     private Design design;
     private double numOfWork;
+    private String type;
 
     public Worker() {
     }
 
-    public Worker(String name, String id, String phone, double salary, String address, Design design, double numOfWork) {
+    public Worker(String name, String id, String phone, double salary, String address, Design design, double numOfWork,String type) {
         this.name = name;
+        this.type=type;
         this.id = id;
         this.phone = phone;
         this.salary = salary;
@@ -87,6 +89,7 @@ public class Worker {
                 ", salary=" + salary +
                 ", address='" + address + '\'' +
                 ", design=" + design +
+                ", type=" +type + '\n' +
                 ", numOfWork=" + numOfWork +
                 '}';
     }

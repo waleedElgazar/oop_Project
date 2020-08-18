@@ -7,23 +7,16 @@ import Model.Worker;
 
 public interface EngineerInterface {
 
-    public Customer insertCustomer(Customer customer);
-
-    public Company insertCompany(Company company);
-
-    public Worker insertWorker(Worker worker);
-
-    public int setNumbersOfWorkers();
 
     public Design setDesgin(Design design);
+
+    public boolean searchDesgin(Design design);
+
+    public Design updateDesgin(Design design ,Design design1);
+
+    public boolean deleteDesgin(Design design);
 
     public boolean deliverTheOrder();
 
     public double calculateCoast();
-
-    public void deleteCustomer(Customer customer);
-
-    public void deleteCompany(Company company);
-
-    public void deleteWorker(Worker worker);
 }
