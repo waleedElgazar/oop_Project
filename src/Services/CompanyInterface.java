@@ -2,23 +2,23 @@ package Services;
 
 public interface CompanyInterface {
 
-    public String getDesgin(); // get desgin from engineer
+    public String setDesgin(); // get desgin from engineer
 
-    public double setCEMENTAmount();
+    public double getCEMENTAmount();
 
-    public double setIRONAmount();
+    public double getIRONAmount();
 
-    public double setSAND_SLATEAmount();
+    public double getSAND_SLATEAmount();
 
-    public double setBRICKSAmount();
+    public double getBRICKSAmount();
 
-    public double setCEMENTPrice();
+    public double getCEMENTPrice();
 
-    public double setIRONPrice();
+    public double getIRONPrice();
 
-    public double setSAND_SLATEPrice();
+    public double getSAND_SLATEPrice();
 
-    public double setBRICKSPrice();
+    public double getBRICKSPrice();
 
 
 }

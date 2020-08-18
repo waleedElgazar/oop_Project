@@ -65,22 +65,35 @@ public class EngineerInterfaceImpl implements EngineerInterface {
 
     @Override
     public double calculateCoast() {
-        return 0;
+        Design design=new Design();
+        return design.getArea()*200;
     }
 
 
     @Override
-    public void deleteCustomer() {
-
+    public void deleteCustomer(Customer customer) {
+        if(!EngineerDao.customers.contains(customer)){
+            EngineerDao.customers.remove(customer);
+            System.out.println("customer had been deleted");
+        }
+        System.out.println("customer not found");
     }
 
     @Override
-    public void deleteCompany() {
-
+    public void deleteCompany(Company company) {
+        if(!EngineerDao.customers.contains(company)){
+            EngineerDao.customers.remove(company);
+            System.out.println("company had been deleted");
+        }
+        System.out.println("company not found");
     }
 
     @Override
-    public void deleteWorker() {
-
+    public void deleteWorker(Worker worker) {
+        if(!EngineerDao.customers.contains(worker)){
+            EngineerDao.customers.remove(worker);
+            System.out.println("worker had been deleted");
+        }
+        System.out.println("worker not found");
     }
 }

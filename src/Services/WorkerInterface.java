@@ -6,8 +6,6 @@ public interface WorkerInterface {
 
     public int getHolidays();
 
-
-
     public String typeOfWorker();
 
     public int getRating();

@@ -12,6 +12,17 @@ public class Company {
     private double amount;
     private double Package; //// salary of resource * amount
 
+    public Company(){
+
+    }
+    public Company(String name, int id, String location, String phone, double aPackage) {
+        this.name = name;
+        this.id = id;
+        this.location = location;
+        this.phone = phone;
+        Package = aPackage;
+    }
+
     public String getName() {
         return name;
     }

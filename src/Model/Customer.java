@@ -6,7 +6,19 @@ public class Customer {
     private String phone;
     private String location;
     private int numberOfFloors;
-    private double paid; ////divide into engineer and worker
+    private double paid;
+
+    public Customer() {
+    }
+
+    public Customer(String name, String id, String phone, String location, int numberOfFloors, double paid) {
+        this.name = name;
+        this.id = id;
+        this.phone = phone;
+        this.location = location;
+        this.numberOfFloors = numberOfFloors;
+        this.paid = paid;
+    }
 
     public String getName() {
         return name;

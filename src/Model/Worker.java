@@ -9,6 +9,19 @@ public class Worker {
     private Design design;
     private double numOfWork;
 
+    public Worker() {
+    }
+
+    public Worker(String name, String id, String phone, double salary, String address, Design design, double numOfWork) {
+        this.name = name;
+        this.id = id;
+        this.phone = phone;
+        this.salary = salary;
+        this.address = address;
+        this.design = design;
+        this.numOfWork = numOfWork;
+    }
+
     public String getName() {
         return name;
     }

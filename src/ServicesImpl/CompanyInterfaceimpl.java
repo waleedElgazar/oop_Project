@@ -6,49 +6,51 @@ import Services.CompanyInterface;
 
 public class CompanyInterfaceimpl  implements CompanyInterface {
     Company company=new Company();
+
+
     @Override
-    public String getDesgin() {
+    public String setDesgin() {
         Design design=new Design();
         return design.toString();
     }
 
     @Override
-    public double setCEMENTAmount() {
+    public double getCEMENTAmount() {
         return company.getAmount()/10;
     }
 
     @Override
-    public double setIRONAmount() {
-        return 0;
+    public double getIRONAmount() {
+        return company.getAmount()/10.5;
     }
 
     @Override
-    public double setSAND_SLATEAmount() {
-        return 0;
+    public double getSAND_SLATEAmount() {
+        return company.getAmount()/12;
     }
 
     @Override
-    public double setBRICKSAmount() {
-        return 0;
+    public double getBRICKSAmount() {
+        return company.getAmount()/20;
     }
 
     @Override
-    public double setCEMENTPrice() {
-        return 0;
+    public double getCEMENTPrice() {
+        return getCEMENTAmount()*50;
     }
 
     @Override
-    public double setIRONPrice() {
-        return 0;
+    public double getIRONPrice() {
+        return getIRONAmount()*100;
     }
 
     @Override
-    public double setSAND_SLATEPrice() {
-        return 0;
+    public double getSAND_SLATEPrice() {
+        return getSAND_SLATEAmount()*30;
     }
 
     @Override
-    public double setBRICKSPrice() {
-        return 0;
+    public double getBRICKSPrice() {
+        return getBRICKSAmount()*12.5;
     }
 }

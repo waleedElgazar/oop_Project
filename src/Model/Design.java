@@ -3,11 +3,24 @@ package Model;
 public class Design {
     private String id;
     private String room_number;
-    private String area;
+    private double area;
     private boolean have_garden;
     private boolean have_parking;
     private int floors;
     private boolean isAccepted;
+
+    public Design() {
+    }
+
+    public Design(String id, String room_number, double area, boolean have_garden, boolean have_parking, int floors, boolean isAccepted) {
+        this.id = id;
+        this.room_number = room_number;
+        this.area = area;
+        this.have_garden = have_garden;
+        this.have_parking = have_parking;
+        this.floors = floors;
+        this.isAccepted = isAccepted;
+    }
 
     public String getId() {
         return id;
@@ -25,11 +38,11 @@ public class Design {
         this.room_number = room_number;
     }
 
-    public String getArea() {
+    public double getArea() {
         return area;
     }
 
-    public void setArea(String area) {
+    public void setArea(double area) {
         this.area = area;
     }
 

@@ -11,6 +11,19 @@ public class Engineer {
     private Catogray catogray;
     private Design design;
 
+    public Engineer() {
+    }
+
+    public Engineer(String name, String id, String phone, String office, double percent, Catogray catogray, Design design) {
+        this.name = name;
+        this.id = id;
+        this.phone = phone;
+        this.office = office;
+        this.percent = percent;
+        this.catogray = catogray;
+        this.design = design;
+    }
+
     public String getName() {
         return name;
     }

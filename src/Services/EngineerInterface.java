@@ -21,9 +21,9 @@ public interface EngineerInterface {
 
     public double calculateCoast();
 
-    public void deleteCustomer();
+    public void deleteCustomer(Customer customer);
 
-    public void deleteCompany();
+    public void deleteCompany(Company company);
 
-    public void deleteWorker();
+    public void deleteWorker(Worker worker);
 }

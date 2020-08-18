@@ -1,18 +1,21 @@
 package ServicesImpl;
 
+import Model.Design;
 import Services.CustomerInterface;
 
 public class CustomerInterfaceImpl implements CustomerInterface {
 
     @Override
     public boolean isPaid() {
-        return false;
+        Design design=new Design();
+        return design.isAccepted();
     }
 
 
     @Override
     public boolean desginAccepted() {
-        return false;
+        Design design=new Design();
+        return design.isAccepted();
     }
 
 
