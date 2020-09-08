@@ -13,15 +13,13 @@ public class Worker {
     public Worker() {
     }
 
-    public Worker(String name, String id, String phone, double salary, String address, Design design, double numOfWork,String type) {
+    public Worker(String name, String id, String phone, String address, Design design,String type) {
         this.name = name;
         this.type=type;
         this.id = id;
         this.phone = phone;
-        this.salary = salary;
         this.address = address;
         this.design = design;
-        this.numOfWork = numOfWork;
     }
 
     public String getName() {

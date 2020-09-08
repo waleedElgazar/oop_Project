@@ -10,6 +10,12 @@ public class WorkerTasks {
     private Date date;
     private boolean isDone;
 
+    public WorkerTasks(String id, String name, Date date) {
+        this.id = id;
+        this.name = name;
+        this.date = date;
+    }
+
     public String getId() {
         return id;
     }

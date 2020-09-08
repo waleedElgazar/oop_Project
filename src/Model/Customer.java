@@ -11,13 +11,11 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(String name, String id, String phone, String location, int numberOfFloors, double paid) {
+    public Customer(String name, String id, String phone, String location) {
         this.name = name;
         this.id = id;
         this.phone = phone;
         this.location = location;
-        this.numberOfFloors = numberOfFloors;
-        this.paid = paid;
     }
 
     public String getName() {

@@ -3,7 +3,7 @@ package ServicesImpl;
 import Model.Company;
 import Model.Design;
 import Services.CompanyInterface;
-
+/*
 public class CompanyInterfaceimpl  implements CompanyInterface {
     Company company=new Company();
 
@@ -53,4 +53,4 @@ public class CompanyInterfaceimpl  implements CompanyInterface {
     public double getBRICKSPrice() {
         return getBRICKSAmount()*12.5;
     }
-}
+}*/

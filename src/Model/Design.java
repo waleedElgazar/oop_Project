@@ -12,14 +12,11 @@ public class Design {
     public Design() {
     }
 
-    public Design(String id, String room_number, double area, boolean have_garden, boolean have_parking, int floors, boolean isAccepted) {
+    public Design(String id, String room_number, double area,  int floors ) {
         this.id = id;
         this.room_number = room_number;
         this.area = area;
-        this.have_garden = have_garden;
-        this.have_parking = have_parking;
         this.floors = floors;
-        this.isAccepted = isAccepted;
     }
 
     public String getId() {
